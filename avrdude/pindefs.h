@@ -62,7 +62,7 @@ enum {
 #ifdef HAVE_LINUXGPIO
 /* Embedded systems might have a lot more gpio than only 0-31 */
 #undef PIN_MAX
-#define PIN_MAX     255 /* largest allowed pin number */
+#define PIN_MAX     512 /* largest allowed pin number */
 #endif
 
 /** Number of pins in each element of the bitfield */
